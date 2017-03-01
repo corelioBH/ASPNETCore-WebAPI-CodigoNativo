@@ -13,11 +13,11 @@ Exemplo de código ASP.NET Core com WebAPI que invoca codigo nativo Win32
   *Conhecimento básico de ASP.NET Core  
 
 ## Passos para rodar
-  . Abra a Solution no Visual Studio
-  . Veja e modifique o seu código do projeto Biblioteca Reusável para invocar DLLs nativas Win32 (também pode ser feito com libs Unix ou Mac)
-  . Dentro do projeto Biblioteca Reusavel rode o comando DotNet Pack para gerar a biblioteca reusável. Ele vai gerar um arquivo .nuspec que descreve a biblioteca em formato JSON, que é pre-requisito para ser importado por um projeto ASP.NET .NET Core
-  . Pelo Nuget Package Manager, incluir o diretorio onde o arquivo .nuspec foi gerado no path do package manager. Dica: http://stackoverflow.com/questions/10240029/how-to-install-a-nuget-package-nupkg-file-locally
-  . Referenciar a biblioteca Nuget gerada pelo Biblioteca Reusavel no projeto AplicacaoRest-InvocacaoCodigoNativo.
-  . Rodar a aplicacação (como self-host application ou pelo IIS Express).
-  . Testar as chamadas remotas
+  * Abra a Solution no Visual Studio  
+  * Veja e modifique o seu código do projeto Biblioteca Reusável para invocar DLLs nativas Win32 (também pode ser feito com libs Unix ou Mac)  
+  * Dentro do projeto Biblioteca Reusavel rode o comando DotNet Pack para gerar a biblioteca reusável. Ele vai gerar um arquivo .nuspec que descreve a biblioteca em formato JSON, que é pre-requisito para ser importado por um projeto ASP.NET .NET Core  
+  * Pelo Nuget Package Manager, incluir o diretorio onde o arquivo .nuspec foi gerado no path do package manager. Dica: http://stackoverflow.com/questions/10240029/how-to-install-a-nuget-package-nupkg-file-locally  
+  * Referenciar a biblioteca Nuget gerada pelo Biblioteca Reusavel no projeto AplicacaoRest-InvocacaoCodigoNativo.  
+  * Rodar a aplicacação (como self-host application ou pelo IIS Express).  
+  * Testar as chamadas remotas com o PostMan ou o Swagger UI  
   
