@@ -2,16 +2,15 @@
 Exemplo de código ASP.NET Core com WebAPI que invoca codigo nativo Win32
 
 ## Pré-Requisitos para operar esta prova de conceito.
-  Visual Studio 2015 Update 3  
-  NET Core 1.0.1 Tooling for Visual Studio (testado com Preview 2) - https://www.microsoft.com/net/core#windowsvs2015  
-  Nuget Command Line Interface (Windows x86 Distribution) (testado com v3.5.0) - https://dist.nuget.org/index.html  
-  Conhecimentos de como gerar pacotes Nuget a partir de uma shared library .xproj ou csproj - Uso do comando utilitário DotNet Pack - https://docs.microsoft.com/en-us/dotnet/articles/core/tools/dotnet-pack e http://stackoverflow.com/questions/39377602/how-to-add-c-library-in-a-net-core-project  
-  Extensão SwashBuckle como um pacote Nuget (rodar o comando Install-Package Swashbuckle) - https://github.com/domaindrivendev/Swashbuckle. Esta extensão irá suportar a exportação de classes Web API em formato Swagger.  
-  Instalar o Postan (Desktop ou Chrome) para facilitar os testes REST  
-Conhecimento de como fazer invocação de métodos nativos com PInvoke - https://msdn.microsoft.com/en-us/library/42b9ea93(v=vs.110).aspx  
-Conhecimento básico de REST  
-Conhecimento básico ASP.NET Web API  
-Conhecimento básico de ASP.NET Core  
+  * Visual Studio 2015 Update 3  
+  * NET Core 1.0.1 Tooling for Visual Studio (testado com Preview 2) - https://www.microsoft.com/net/core#windowsvs2015  
+  * Nuget Command Line Interface (Windows x86 Distribution) (testado com v3.5.0) - https://dist.nuget.org/index.html  
+  * Conhecimentos de como gerar pacotes Nuget a partir de uma shared library .xproj ou csproj - Uso do comando utilitário DotNet Pack - https://docs.microsoft.com/en-us/dotnet/articles/core/tools/dotnet-pack e http://stackoverflow.com/questions/39377602/how-to-add-c-library-in-a-net-core-project  
+  * Extensão SwashBuckle como um pacote Nuget (rodar o comando Install-Package Swashbuckle) - https://github.com/domaindrivendev/Swashbuckle. Esta extensão irá suportar a exportação de classes Web API em formato Swagger.  
+  * Instalar o Postan (Desktop ou Chrome) para facilitar os testes REST  
+  * Conhecimento de como fazer invocação de métodos nativos com PInvoke - https://msdn.microsoft.com/en-us/library/42b9ea93(v=vs.110).aspx   * Conhecimento básico de REST  
+  * Conhecimento básico ASP.NET Web API  
+  *Conhecimento básico de ASP.NET Core  
 
 ## Passos para rodar
   . Abra a Solution no Visual Studio
