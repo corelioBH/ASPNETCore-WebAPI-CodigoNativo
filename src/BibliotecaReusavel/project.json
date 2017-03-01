@@ -1,0 +1,23 @@
+﻿{
+  "buildOptions": {
+    "emitEntryPoint": true
+  },
+  "dependencies": {
+    "BuildPackage": "2.3.0",
+    "Microsoft.NETCore.App": {
+      "type": "platform",
+      "version": "1.0.1"
+    }
+  },
+  "frameworks": {
+    "netcoreapp1.0": {
+      "imports": "dnxcore50"
+    }
+  },
+  "packOptions": {
+    "files": {
+      "includeFiles": "lib/ClassLibrary-VB-SomaNumeros.dll"
+    }
+  },
+  "version": "1.0.0"
+}

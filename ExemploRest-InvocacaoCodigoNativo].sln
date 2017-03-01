@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E2AA7A30-6E9A-4251-9FD2-0FABFB98A819}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F0A99B92-A1FF-4569-B866-D6A3CC7F030F}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AplicacaoRest-InvocacaoCodigoNativo", "src\WebApplication1\AplicacaoRest-InvocacaoCodigoNativo.xproj", "{77FF306F-68E2-457B-A099-A8D113840A73}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "BibliotecaReusavel", "src\BibliotecaReusavel\BibliotecaReusavel.xproj", "{88E7E738-1AE5-4CDB-B715-5FE07AF1991A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77FF306F-68E2-457B-A099-A8D113840A73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77FF306F-68E2-457B-A099-A8D113840A73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77FF306F-68E2-457B-A099-A8D113840A73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77FF306F-68E2-457B-A099-A8D113840A73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88E7E738-1AE5-4CDB-B715-5FE07AF1991A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88E7E738-1AE5-4CDB-B715-5FE07AF1991A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88E7E738-1AE5-4CDB-B715-5FE07AF1991A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88E7E738-1AE5-4CDB-B715-5FE07AF1991A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{77FF306F-68E2-457B-A099-A8D113840A73} = {E2AA7A30-6E9A-4251-9FD2-0FABFB98A819}
+		{88E7E738-1AE5-4CDB-B715-5FE07AF1991A} = {E2AA7A30-6E9A-4251-9FD2-0FABFB98A819}
+	EndGlobalSection
+EndGlobal
